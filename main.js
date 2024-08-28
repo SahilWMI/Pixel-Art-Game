@@ -1,5 +1,5 @@
-import { Hero } from "./hero";
-import { World } from "./world";
+import { Hero } from "./hero.js";
+import { World } from "./world.js";
 
 
 export const TILE_SIZE = 32;
