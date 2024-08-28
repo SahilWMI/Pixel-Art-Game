@@ -1,3 +1,7 @@
+import { Hero } from "./hero";
+import { World } from "./world";
+
+
 export const TILE_SIZE = 32;
 export const COLS = 15;
 export const ROWS = 20;
@@ -10,8 +14,8 @@ window.addEventListener('load', function(){
     canvas.width = GAME_WIDTH;
     canvas.height = GAME_HEIGHT;
 
-    const world =new World();
+    const world =new World
     world.drawGrid(ctx);
 
-    const hero =new Hero();
+    const hero =new Hero
 })
