@@ -1,4 +1,4 @@
-import {TILE_SIZE} from "../main.js"
+import { TILE_SIZE } from "./main";
 
 export class GameObject {
     constructor(){
