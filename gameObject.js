@@ -1,7 +1,7 @@
 import { TILE_SIZE } from "./main.js";
 
 export class Hero extends GameObject {
-    constructor(){
+    constructor(game, sprite, position,scale ){
 
     }
     draw(ctx){
