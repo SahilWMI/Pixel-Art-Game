@@ -1,13 +1,13 @@
-import { TILE_SIZE } from "./main";
+import { TILE_SIZE } from "./main.js";
 
-export class GameObject {
+export class Hero extends GameObject {
     constructor(){
 
     }
     draw(ctx){
         ctx.fillRect(
-            0,
-            0,
+            1 * TILE_SIZE,
+            2 * TILE_SIZE,
             TILE_SIZE,
             TILE_SIZE
         )
