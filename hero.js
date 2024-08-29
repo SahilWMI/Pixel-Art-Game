@@ -1,8 +1,7 @@
-import { GameObject } from "./gameObject";
+import { GameObject } from "./gameObject.js";
 
 export class Hero extends GameObject{
     constructor() {
         
     }
-    
 }
